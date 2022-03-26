@@ -2,7 +2,7 @@
 Billiard recording dataset for blackball, carom billiard, and snooker. Raw data and results from research paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards"
 
 ```cpp
-int readMatFromFile(ifstream& in, Mat &Img){
+int readMatFromFile(ifstream& input, Mat &Img){
 
 int matCols = Img.cols, matRows = Img.rows;
 int type = Img.type();
@@ -17,13 +17,13 @@ Vec3b value;
       {
         for (cont2=0; cont2 < matCols; ++cont2)
         {  
-          in.read((char*) &value, sizeof(value));
+          input.read((char*) &value, sizeof(value));
           Img.at<Vec3b>(cont, cont2) = value;           
         }
       }
     break;
     // more cases to add
-    default: // Cualquier otro tipo no definido.
+    default:
       cout << "Error: format not supported! Conrrently supported: CV_8UC3\n";
       return -1;
     break;
