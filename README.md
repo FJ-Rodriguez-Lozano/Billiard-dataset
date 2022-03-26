@@ -25,7 +25,7 @@ The data set includes: 100 recordings of shots made in the blackball billiard mo
 
 - blackball: 
 	+  blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
-	+  	-BGR.dat: 
+	  	-BGR.dat: 
 	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
 	+  floderIndex.txt: A list of available subfolders. 
 - BlackBall_Manual:
