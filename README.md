@@ -1,8 +1,8 @@
 # Billiard-dataset
 Billiard-dataset is a collection of recordings made for the scientific paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards". The main objective is the creation of a system to perform a reconstruction of billiards moves in a 3D virtual world and a new multi-object tracking algorithm applied to billiards. 
 
-![alt text](https://github.com/FJ-Rodriguez-Lozano/Billiard-dataset/main/example.png?raw=true)
-
+![alt text](https://github.com/FJ-Rodriguez-Lozano/Billiard-dataset/blob/main/example.png?raw=true)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## How to cite this
 More information about the aim of our work can be found in our paper. If you use this dataset, make sure you cite this work as:
