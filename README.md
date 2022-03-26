@@ -18,7 +18,6 @@ More information about the aim of our work can be found in our paper. If you use
 }
 ```
 ### Dataset content
-
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
 - blackball: 
@@ -51,7 +50,16 @@ The data set includes: 100 recordings of shots made in the blackball billiard mo
 
 
 #### How to read 'BGR.dat' raw data
+If the user wishes to use the original raw data (BGR.dat), he must adapt the following code to the specific needs of his program: 
 ```cpp
+
+#include <fstream>
+#include <iostream>
+#include <opencv2/opencv.hpp>
+
+using namespace std;
+using namespace cv;
+
 /*Function used to read the raw "BGR.dat" files using OpenCV and C++ */
 int readMatFromFile(ifstream& input, Mat &Img)
 {
@@ -80,6 +88,28 @@ Vec3b value;
     break;
   }
 
+return 0;
+}
+
+int main (int argc, char* argv[])
+{
+ifstream BGRimage;
+bool goOut = false;
+
+  imagenRGB.open(argv[1], ios::in|ios::binary);
+
+  while(!goOut)
+  {
+    Mat image(480, 640, CV_8UC3);
+    // reading of each frame
+    readMatFromFile(imagenRGB, image);
+
+    // do something with the image
+    
+    if(imagenRGB.eof())
+      goOut = true;
+  }
+  
 return 0;
 }
 
