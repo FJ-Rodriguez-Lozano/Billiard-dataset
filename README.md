@@ -145,7 +145,7 @@ bool goOut = false;
       goOut = true;
   }
   
-  imagenRGB.close;  
+  imagenRGB.close();  
 
 return 0;
 }
