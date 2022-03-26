@@ -1,6 +1,7 @@
 # Billiard-dataset
 Billiard recording dataset for blackball, carom billiard, and snooker. Raw data and results from research paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards"
 
+---
 int readMatFromFile(ifstream& in, Mat &I)
 {
 int matCols = I.cols, matRows = I.rows; // Lectura de los datos de la imagen.
@@ -42,3 +43,4 @@ unsigned short dvalue; // Tipo de dato para imágenes de un canal.
 
 return 0;
 }
+  ---
