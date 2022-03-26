@@ -23,12 +23,12 @@ The dataset requires approximately 190 GB of memory and is available at the foll
 ## Dataset content
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
-- blackball: 
-	+  blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
-	  	-BGR.dat: 
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-- BlackBall_Manual:
+* blackball: 
+	*  blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
+	  	*BGR.dat: 
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+* BlackBall_Manual:
  	+  BlackBall_Manual_[0...to...21]: subfolders of each recording of the blackball billiard modality.* This subfolder has inside the manual trajectory of the shot.
 	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
 	+  floderIndex.txt: A list of available subfolders. 
