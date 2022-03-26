@@ -1,8 +1,5 @@
 # Billiard-dataset
-Billiard recording dataset for blackball, carom billiard, and snooker. Raw data and results from research paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards"
-
-
-More information about the dataset can be found in our paper. If you use this dataset, make sure you cite this work as:
+Billiard-dataset is a collection of recordings made for the scientific paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards". The main objective is the creation of a system to perform a reconstruction of billiards moves in a 3D virtual world and a new multi-object tracking algorithm applied to billiards. More information about the aim of our work can be found in our paper. If you use this dataset, make sure you cite this work as:
 ```latex
 @article{Rodriguez-Lozano-3DBILLIARDMOLT_2022,
 	author = {Rodriguez-Lozano, Francisco J. and Gámez-Granados, Juan C. and León-García, Fernando and Palomares, Jose M. and Olivares, J.},
@@ -17,6 +14,8 @@ More information about the dataset can be found in our paper. If you use this da
 	url = {-},
 }
 ```
+The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. These subsets are found inside the folders: "BlackBall_Manual", "Carom_Manual", and "Snooker_Manual".
+
 
 ```cpp
 /*Function used to read the raw "BGR.dat" files using OpenCV and C++ */
