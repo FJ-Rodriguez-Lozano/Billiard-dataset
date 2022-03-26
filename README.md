@@ -4,7 +4,7 @@ Billiard recording dataset for blackball, carom billiard, and snooker. Raw data 
 
 More information about the dataset can be found in our paper. If you use this dataset, make sure you cite this work as:
 ```latex
-@article{Haar_2020,
+@article{Rodriguez-Lozano-3DBILLIARDMOLT_2022,
 	author = {Rodriguez-Lozano, Francisco J. and Gámez-Granados, Juan C. and León-García, Fernando and Palomares, Jose M. and Olivares, J.},
 	title = {3D reconstruction system and multi-object local tracking algorithm designed for billiards},
  	year = {2022},
@@ -13,7 +13,7 @@ More information about the dataset can be found in our paper. If you use this da
 	volume = {-},
 	number = {-},
 	journal = {-},
-  doi = {-},
+	doi = {-},
 	url = {-},
 }
 ```
