@@ -24,33 +24,33 @@ The dataset requires approximately 190 GB of memory and is available at the foll
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
 * blackball: 
-	*  blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
-	  	*BGR.dat: 
+	* blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
+                  * BGR.dat: 
 	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
 	*  floderIndex.txt: A list of available subfolders. 
 * BlackBall_Manual:
- 	+  BlackBall_Manual_[0...to...21]: subfolders of each recording of the blackball billiard modality.* This subfolder has inside the manual trajectory of the shot.
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-	+  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
-- carom:
-	+  carom_[0...to...99]: subfolders of each recording of the carom billiard modality.
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-- Carom_Manual:
- 	+  Carom_Manual_[0...to...15]: subfolders of each recording of the carom billiard modality.* This subfolder has inside the manual trajectory of the shot.
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-	+  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
-- snooker:
-	+  snooker_[0...to...99]: subfolders of each recording of the snooker billiard modality.
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-- Snooker_Manual:
- 	+  nooker_Manual_[0...to...15]: subfolders of each recording of the snooker billiard modality.* This subfolder has inside the manual trajectory of the shot.
-	+  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	+  floderIndex.txt: A list of available subfolders. 
-	+  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt". 
+ 	*  BlackBall_Manual_[0...to...21]: subfolders of each recording of the blackball billiard modality.* This subfolder has inside the manual trajectory of the shot.
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
+* carom:
+	*  carom_[0...to...99]: subfolders of each recording of the carom billiard modality.
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+* Carom_Manual:
+ 	*  Carom_Manual_[0...to...15]: subfolders of each recording of the carom billiard modality.* This subfolder has inside the manual trajectory of the shot.
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
+* snooker:
+	*  snooker_[0...to...99]: subfolders of each recording of the snooker billiard modality.
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+* Snooker_Manual:
+ 	*  nooker_Manual_[0...to...15]: subfolders of each recording of the snooker billiard modality.* This subfolder has inside the manual trajectory of the shot.
+	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  floderIndex.txt: A list of available subfolders. 
+	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt". 
 
 
 ### How to read 'BGR.dat' raw data
