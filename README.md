@@ -23,63 +23,63 @@ The dataset requires approximately 190 GB of memory and is available at the foll
 ## Dataset content
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
-* blackball: 
-	* blackball_[0...to...99]: subfolders of each recording of the blackball billiard modality.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-* BlackBall_Manual:
- 	*  BlackBall_Manual_[0...to...21]: subfolders of each recording of the blackball billiard modality.* This subfolder has inside the manual trajectory of the shot.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* Jaccard_Coefficient.txt: a file that contains the results of the Jaccard index for each algorithm.
-		* manual_track.png: the ground truth trajectories of each object in movement.  
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
-* carom:
-	*  carom_[0...to...99]: subfolders of each recording of the carom billiard modality.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-* Carom_Manual:
- 	*  Carom_Manual_[0...to...15]: subfolders of each recording of the carom billiard modality.* This subfolder has inside the manual trajectory of the shot.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* Jaccard_Coefficient.txt: a file that contains the results of the Jaccard index for each algorithm.
-		* manual_track.png: the ground truth trajectories of each object in movement.  
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
-* snooker:
-	*  snooker_[0...to...99]: subfolders of each recording of the snooker billiard modality.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-* Snooker_Manual:
- 	*  nooker_Manual_[0...to...15]: subfolders of each recording of the snooker billiard modality.* This subfolder has inside the manual trajectory of the shot.
-		* BGR.dat: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
-		* BGR.avi: rendered video from BGR.dat with compression.
-		* Jaccard_Coefficient.txt: a file that contains the results of the Jaccard index for each algorithm.
-		* manual_track.png: the ground truth trajectories of each object in movement.  
-		* AnimationsResults: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
-		* TrackingResults: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
-	*  background.png: a background image of the table without balls or external elements, in case any user needs to use it. 
-	*  floderIndex.txt: A list of available subfolders. 
-	*  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt". 
+* **blackball**: 
+	* **blackball_[0...to...99]**: subfolders of each recording of the blackball billiard modality.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+* **BlackBall_Manual**:
+ 	*  **BlackBall_Manual_[0...to...21]**: subfolders of each recording of the blackball billiard modality.* This subfolder has inside the manual trajectory of the shot.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *Jaccard_Coefficient.txt*: a file that contains the results of the Jaccard index for each algorithm.
+		* *manual_track.png*: the ground truth trajectories of each object in movement.  
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+	*  **Jaccard_Coefficient_Average.txt**: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
+* **carom**:
+	*  **carom_[0...to...99]**: subfolders of each recording of the carom billiard modality.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+* **Carom_Manual**:
+ 	*  **Carom_Manual_[0...to...15]**: subfolders of each recording of the carom billiard modality.* This subfolder has inside the manual trajectory of the shot.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *Jaccard_Coefficient.txt*: a file that contains the results of the Jaccard index for each algorithm.
+		* *manual_track.png*: the ground truth trajectories of each object in movement.  
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+	*  **Jaccard_Coefficient_Average.txt**: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt".
+* **snooker**:
+	*  **snooker_[0...to...99]**: subfolders of each recording of the snooker billiard modality.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, and rendered videos comparing each algorithm. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+* **Snooker_Manual**:
+ 	*  **nooker_Manual_[0...to...15]**: subfolders of each recording of the snooker billiard modality.* This subfolder has inside the manual trajectory of the shot.
+		* *BGR.dat*: raw data of the recording. A special function is required to display it (see *"How to read 'BGR.dat' raw data" section*). 
+		* *BGR.avi*: rendered video from BGR.dat with compression.
+		* *Jaccard_Coefficient.txt*: a file that contains the results of the Jaccard index for each algorithm.
+		* *manual_track.png*: the ground truth trajectories of each object in movement.  
+		* *AnimationsResults*: subfolder with the 3D virtual generated worlds. It contains the animation files in ".x3d" format and rendered in video with format ".avi" with compression.  
+		* *TrackingResults*: subfolder with the results of all the tested algorithms. It contains "_track.png" images with the trajectories retrieved by each algorithm, "IOU_.png" images with the Intersection over the Union of the trajectories of each algorithm with the Manual trajectory. Also, rendered videos comparing each algorithm are available. 
+	*  **background.png**: a background image of the table without balls or external elements, in case any user needs to use it. 
+	*  **floderIndex.txt**: A list of available subfolders. 
+	*  **Jaccard_Coefficient_Average.txt**: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt". 
 
 
 ### How to read 'BGR.dat' raw data
