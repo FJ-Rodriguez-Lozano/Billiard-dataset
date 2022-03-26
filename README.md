@@ -2,8 +2,9 @@
 Billiard recording dataset for blackball, carom billiard, and snooker. Raw data and results from research paper titled: "3D reconstruction system and multi-object local tracking algorithm designed for billiards"
 
 ```cpp
-int readMatFromFile(ifstream& input, Mat &Img){
-
+/*Function used to read the raw "BGR.dat" files using OpenCV and C++ */
+int readMatFromFile(ifstream& input, Mat &Img)
+{
 int matCols = Img.cols, matRows = Img.rows;
 int type = Img.type();
 int cont=0, cont2=0;
