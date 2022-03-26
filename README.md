@@ -115,4 +115,4 @@ return 0;
 
 ```
 ##### License
-This data is licensed by author under a CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+This dataset is licensed by the author under a CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
