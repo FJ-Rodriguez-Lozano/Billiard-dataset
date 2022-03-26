@@ -17,6 +17,9 @@ More information about the aim of our work can be found in our paper. If you use
 	url = {-},
 }
 ```
+## Dataset link
+The dataset requires approximately 190 GB of memory and is available at the following web link:[Link](ENLACE a OneDRIVE)
+
 ## Dataset content
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
@@ -115,4 +118,4 @@ return 0;
 
 ```
 ## License
-This dataset is licensed by the author under a CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+This dataset is licensed by the author under a CC BY-SA 4.0 license [https://creativecommons.org/licenses/by-sa/4.0/deed.en](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
