@@ -17,7 +17,7 @@ More information about the aim of our work can be found in our paper. If you use
 	url = {-},
 }
 ```
-### Dataset content
+## Dataset content
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
 
 - blackball: 
@@ -49,7 +49,7 @@ The data set includes: 100 recordings of shots made in the blackball billiard mo
 	+  Jaccard_Coefficient_Average.txt: an average of the results for each algorithm compared using the Jaccard index for the folders available in the file "folderIndex.txt". 
 
 
-#### How to read 'BGR.dat' raw data
+### How to read 'BGR.dat' raw data
 If the user wishes to use the original raw data (BGR.dat), he must adapt the following code to the specific needs of his program: 
 ```cpp
 
@@ -114,5 +114,5 @@ return 0;
 }
 
 ```
-##### License
+## License
 This dataset is licensed by the author under a CC BY-SA 4.0 license (https://creativecommons.org/licenses/by-sa/4.0/deed.en).
