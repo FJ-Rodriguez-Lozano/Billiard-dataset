@@ -20,7 +20,7 @@ More information about the aim of our work can be found in our paper. If you use
 }
 ```
 ## Dataset link
-The dataset requires approximately 190 GB of disk space, and it is available at the following web link:[Link](ENLACE a OneDRIVE)
+The dataset requires approximately 190 GB of disk space, and it is available at the following web [Link](https://ucordoba-my.sharepoint.com/:f:/g/personal/i02rolof_uco_es/EqvYzy9bx_hNjAOfptG03jMBEoBLwBQZRkCMdmM31IW_5w?e=3aa7hU).
 
 ## Dataset content
 The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
