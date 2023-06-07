@@ -5,6 +5,7 @@ Billiard-dataset is a collection of recordings made for the scientific paper tit
 
 ## How to cite this
 More information about the aim of our work can be found in our paper. If you use this dataset, make sure you cite this work as:
+Latex:
 ```latex
 @article{Rodriguez_Lozano_2023,
 	doi = {10.1007/s10489-023-04542-3},
@@ -17,6 +18,10 @@ More information about the aim of our work can be found in our paper. If you use
 	journal = {Applied Intelligence}
 }
 ```
+IEEE: F. J. Rodriguez-Lozano, J. C. Gámez-Granados, H. Martínez, J. M. Palomares, and J. Olivares, “3D reconstruction system and multiobject local tracking algorithm designed for billiards,” Applied Intelligence, Jun. 2023, doi: 10.1007/s10489-023-04542-3.
+
+APA: Rodriguez-Lozano, F. J., Gámez-Granados, J. C., Martínez, H., Palomares, J. M., & Olivares, J. (2023). 3D reconstruction system and multiobject local tracking algorithm designed for billiards. Applied Intelligence. https://doi.org/10.1007/s10489-023-04542-3
+
 ## Dataset link
 The dataset requires approximately 190 GB of disk space, and it is available at the following web [Link](https://ucordoba-my.sharepoint.com/:f:/g/personal/i02rolof_uco_es/EqvYzy9bx_hNjAOfptG03jMBEoBLwBQZRkCMdmM31IW_5w?e=3aa7hU).
 
