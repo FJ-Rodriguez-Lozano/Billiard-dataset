@@ -6,17 +6,15 @@ Billiard-dataset is a collection of recordings made for the scientific paper tit
 ## How to cite this
 More information about the aim of our work can be found in our paper. If you use this dataset, make sure you cite this work as:
 ```latex
-@article{Rodriguez-Lozano-3DBILLIARDMOLT_2022,
-	author = {Rodriguez-Lozano, Francisco J. and Gámez-Granados, Juan C. and León-García, Fernando and Palomares, Jose M. and Olivares, J.},
-	title = {3D reconstruction system and multi-object local tracking algorithm designed for billiards},
- 	year = {2022},
-	month = {-},
-	publisher = {-},
-	volume = {-},
-	number = {-},
-	journal = {-},
-	doi = {-},
-	url = {-},
+@article{Rodriguez_Lozano_2023,
+	doi = {10.1007/s10489-023-04542-3},
+	url = {https://doi.org/10.1007%2Fs10489-023-04542-3},
+	year = 2023,
+	month = {jun},
+	publisher = {Springer Science and Business Media {LLC}},
+	author = {Francisco J. Rodriguez-Lozano and Juan C. G{\'{a}}mez-Granados and H{\'{e}}ctor Mart{\'{\i}}nez and Jose M. Palomares and Joaqu{\'{\i}}n Olivares},
+	title = {3D reconstruction system and multiobject local tracking algorithm designed for billiards},
+	journal = {Applied Intelligence}
 }
 ```
 ## Dataset link
